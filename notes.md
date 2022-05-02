@@ -13,13 +13,11 @@
     * Mapear de propiedades back-front
     * O bien, definir reglas de formulario en parte front
   * 🧐 Analizando, para scope del MVP, es más rápido y filtra llamadas back si se realiza el control previo en front, para evitar errores back.
-    * ⚠️🔨 Implementamos validaciones front.
+    * ✅🔨 Implementamos validaciones front. Realizada para formularios existentes.
   * 🔥 No obstante, debemos mostrar de algún modo aquellos errores que nos pueda devolver el back. Como email de usuario repetido. Por lo que:
-    * ⚠️🔨 Debemos mostrar errores 4XX en la aplicación angular
+    * ✅ Debemos mostrar errores 4XX en la aplicación angular
 * Puedo crear 2 usuarios con el mismo email
-  * ⚠️🔨 Trabajando en esta corrección.
-    * Añadir unique index to user db table
-    * Captura de error para mostrar en front adecuadamente.
+  * ✅ Corregido
 
 #### Mejoras
 
@@ -47,6 +45,11 @@
 
 #### Correcciones
 
+* Algunas cosas siguen sin traducir y otras no:
+  * 🔨 Realizando traducciones pendientes
+  * 📓 Las traducciones provenientes de la parte back siguen pendientes.
+    * Mejora tras la entrega de MVP. Ya que requiere de análisis, por si se debe crear algún tipo de mapeo con formularios.
+
 #### Mejoras
 
 * Falta traducciones en email
@@ -56,4 +59,4 @@
 
 #### Notas positivas
 
-* Aplicación en español, la recuerdo en inglés
+* 🇪🇦 Aplicación en español, la recuerdo en inglés
