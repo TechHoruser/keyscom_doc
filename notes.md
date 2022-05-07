@@ -60,3 +60,10 @@
 #### Notas positivas
 
 * 🇪🇦 Aplicación en español, la recuerdo en inglés
+
+### Feedback usuarios (7/5/2022 - 7/5/2022)
+
+#### Correcciones
+
+*Me gustaría filtrar los proyectos y máquinas por clientes
+*Hay que revisar bien el front en visualización móvil, no se ve correctamente y fallan algunos scroll como el del menú de la izquierda cuando se está en visualización escritorio y se gira el móvil.
