@@ -56,6 +56,8 @@
   * 📓 Pendiente de investigar. Traducciones en back.
     * Traducciones de emails
     * Traducciones de errores
+* Me gustaría un botón de borrar filtros
+  * ⏭️ Fuera de alcance
 
 #### Notas positivas
 
