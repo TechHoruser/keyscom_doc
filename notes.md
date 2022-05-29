@@ -73,3 +73,4 @@
 ### Notas del dev
 
 * Gracias a tener el código estructurado en arquitectura limpia, hemos podido integrar softDelete en todas las entidades de forma cómoda.
+* Poder mover proyectos y máquinas a otros clientes y proyectos respectivamente.
