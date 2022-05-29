@@ -67,5 +67,9 @@
 
 #### Correcciones
 
-*Me gustaría filtrar los proyectos y máquinas por clientes
-*Hay que revisar bien el front en visualización móvil, no se ve correctamente y fallan algunos scroll como el del menú de la izquierda cuando se está en visualización escritorio y se gira el móvil.
+* Me gustaría filtrar los proyectos y máquinas por clientes
+* Hay que revisar bien el front en visualización móvil, no se ve correctamente y fallan algunos scroll como el del menú de la izquierda cuando se está en visualización escritorio y se gira el móvil.
+
+### Notas del dev
+
+* Gracias a tener el código estructurado en arquitectura limpia, hemos podido integrar softDelete en todas las entidades de forma cómoda.
