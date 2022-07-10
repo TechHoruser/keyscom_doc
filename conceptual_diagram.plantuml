@@ -1,0 +1,73 @@
+@startuml
+
+abstract class User {
+    #uuid: string
+    email: string
+    pubKey: ?string
+    firstName: string
+    lastName: string
+
+    +isSuper(?PermissionType $permissionType = null): bool
+    +hasPermissionForClient(Client $client, ?PermissionType $permissionType = null): bool
+    +hasPermissionForProject(Project $project, ?PermissionType $permissionType = null): bool
+    +hasPermissionForMachine(Machine $machine, ?PermissionType $permissionType = null): bool
+    +checkSuperPermission(?PermissionType $permissionType = null): void
+    +checkPermissionForClient(Client $client, ?PermissionType $permissionType = null): void
+    +checkPermissionForProject(Project $project, ?PermissionType $permissionType = null): void
+    +checkPermissionForMachine(Machine $machine, ?PermissionType $permissionType = null): void
+    +getPermissionsByRelatedEntity(?PermissionType $permissionType = null): Permission[]
+}
+
+class InfrastructureUser {
+    password: string
+}
+
+class Permission {
+    #uuid: string
+    userPermissionType: PermissionType
+    relatedEntity: PermissionRelatedEntity
+    typeOfMachine: ?string
+    relatedEntityUuid: string
+    reverted: bool
+}
+
+class Client {
+    #uuid: string
+    name: string
+}
+
+class Project {
+    #uuid: string
+    name: string
+    startDate: ?DateTime
+    endDate: ?DateTime
+}
+
+class Machine {
+    #uuid: string
+    ip: string
+    name: ?string
+    domain: ?string
+    type: ?string
+}
+
+class ActionUserOnMachine {
+    #uuid: string
+    actionToDo: ActionOfUserOnMachine
+    skipped: bool
+    processed: bool
+    canceled: bool
+}
+
+User <|- InfrastructureUser
+User "1" *-- "N" Permission
+Permission "1" - "N" ActionUserOnMachine
+Permission "N" --- "0,1" Client
+Permission "N" --- "0,1"Project
+Permission "N" --- "0,1"Machine
+
+Client "1" *- "N" Project
+Project "1" *- "N" Machine
+
+ActionUserOnMachine "N" --- "1" Machine
+@enduml

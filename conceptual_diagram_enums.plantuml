@@ -1,0 +1,21 @@
+@startuml
+
+card "ENUMS" #AAA {
+    enum PermissionType {
+        ADMIN
+        SSH
+    }
+
+    enum PermissionRelatedEntity {
+        MACHINE
+        PROJECT
+        CLIENT
+    }
+
+    enum ActionOfUserOnMachine {
+        ADD
+        REMOVE
+    }
+}
+
+@enduml
