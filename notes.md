@@ -73,7 +73,7 @@
 
 #### Notas positivas
 
-* 🖖 Se han corregido/mejorado puntos indicados en pruebas realizadas previamente.
+* 💪 Se han corregido/mejorado puntos indicados en pruebas realizadas previamente.
 
 ### Otras notas del desarrollador
 
