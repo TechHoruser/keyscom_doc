@@ -63,7 +63,7 @@
 
 * 🇪🇦 Aplicación en español, la recuerdo en inglés
 
-### Feedback usuarios (7/5/2022 - 7/5/2022)
+### Feedback usuarios (7/5/2022 - 15/5/2022)
 
 #### Correcciones
 
