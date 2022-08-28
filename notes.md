@@ -46,7 +46,7 @@
 #### Correcciones
 
 * Algunas cosas siguen sin traducir y otras no:
-  * 🔨 Realizando traducciones pendientes
+  * ✅ Realizadas traducciones pendientes
   * 📓 Las traducciones provenientes de la parte back siguen pendientes.
     * Mejora tras la entrega de MVP. Ya que requiere de análisis, por si se debe crear algún tipo de mapeo con formularios.
 
@@ -68,9 +68,14 @@
 #### Correcciones
 
 * Me gustaría filtrar los proyectos y máquinas por clientes
-* Hay que revisar bien el front en visualización móvil, no se ve correctamente y fallan algunos scroll como el del menú de la izquierda cuando se está en visualización escritorio y se gira el móvil.
+  * ✅ Los proyectos se pueden filtrar por cliente.
+  * ✅ Los máquinas se pueden filtrar por cliente y proyecto.
 
-### Notas del dev
+#### Notas positivas
+
+* 🖖 Se han corregido/mejorado puntos indicados en pruebas realizadas previamente.
+
+### Otras notas del desarrollador
 
 * Gracias a tener el código estructurado en arquitectura limpia, hemos podido integrar softDelete en todas las entidades de forma cómoda.
 * Poder mover proyectos y máquinas a otros clientes y proyectos respectivamente.
